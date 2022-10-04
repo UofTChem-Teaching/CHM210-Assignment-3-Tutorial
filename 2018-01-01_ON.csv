@@ -1,0 +1,87 @@
+*DESCRIPTION,,,,,,,
+*1HR,,,,,,,
+*8HR,,,,,,,
+*24HR,,,,,,,
+*DMAX1HR,,,,,,,
+*DAILYMEAN,,,,,,,
+************DESCRIPTION************,,,,,,,
+File generated on,,,,,,,
+,,,,,,,
+Annual Summary Report,,,,,,,
+"Pollutant: Ozone, NO2",,,,,,,
+Units: Mixing ratio (ppb),,,,,,,
+Day: from midnight to midnight.,,,,,,,
+All data reported in standard local time,,,,,,,
+,,,,,,,
+Reporting Criteria for 1hr report:,,,,,,,
+"  Minimum, Maximum and Percentiles are reported regardless of data completeness",,,,,,,
+Monthly averages are reported if at least 50% of the hours during the month have valid measurements,,,,,,,
+Annual average and standard deviation are reported if 50% of hours in year are valid and each quarter has at least 2 valid months,,,,,,,
+,,,,,,,
+Reporting Criteria for 8hr report:,,,,,,,
+Running 8 hour averages are calculated with reporting hour being end hour (eg. 8pm = average of 1pm to 8pm),,,,,,,
+8 hour averages are valid if at least 6 of the 8 hours are valid,,,,,,,
+"  Minimum, Maximum and Percentiles are reported regardless of data completeness",,,,,,,
+Monthly averages are reported if at least 50% of the hours during the month have valid running 8-hour average,,,,,,,
+Annual average and standard deviation are reported if 50% of running 8-hour averages are valid and each quarter has at least 2 valid months,,,,,,,
+,,,,,,,
+Reporting Criteria for 24hr report:,,,,,,,
+Running 24 hour averages are calculated with reporting hour being end hour (eg. 8pm = 24 hour average from 9pm previous day to 8pm),,,,,,,
+24 hour averages are valid if at least 18 of the 24 hours are valid,,,,,,,
+"  Minimum, Maximum and Percentiles are reported regardless of data completeness",,,,,,,
+Monthly averages are reported if at least 50% of the hours during the month have valid running 24-hour average,,,,,,,
+Annual average and standard deviation are reported if 50% of running 24-hour averages are valid and each quarter has at least 2 valid months,,,,,,,
+,,,,,,,
+Reporting Criteria for DMax1hr report:,,,,,,,
+Daily max 1-hour only valid if at least 18 of 24 hours have valid data,,,,,,,
+"  Minimum, Maximum and Percentiles are reported regardless of data completeness",,,,,,,
+Monthly averages are reported if at least 50% days have a valid daily 1-hr max,,,,,,,
+Annual average and standard deviation are reported if 50% of days have valid daily 1-hr max and each quarter has at least 2 valid months,,,,,,,
+,,,,,,,
+Reporting Criteria for DailyMean report:,,,,,,,
+Daily means are valid if at least 18 of the 24 hours are valid,,,,,,,
+"  Minimum, Maximum and Percentiles are reported regardless of data completeness",,,,,,,
+Monthly averages are reported if at least 50% days have a valid daily mean,,,,,,,
+Annual average and standard deviation are reported if 50% of days have daily mean and each quarter has at least 2 valid months,,,,,,,
+************1HR************,,,,,,,
+naps,city,p,latitude,longitude,date.time,O3,NO2
+60104,Ottawa,ON,45.43433,-75.676,2018-01-01,23.48,14.6
+60106,Ottawa,ON,45.38286,-75.71387,2018-01-01,NA,NA
+60204,Windsor,ON,42.315778,-83.043667,2018-01-01,24.52,16.2
+60211,Windsor,ON,42.292889,-83.073139,2018-01-01,24.68,14.56
+60304,Kingston,ON,44.21987,-76.52113,2018-01-01,25,14
+60410,Toronto,ON,43.74792,-79.27406,2018-01-01,19.24,22.72
+60430,Toronto,ON,43.709444,-79.5435,2018-01-01,16.8,26.68
+60433,Toronto,ON,43.66417,-79.38722,2018-01-01,19.24,22.52
+60434,Mississauga,ON,43.54697,-79.65869,2018-01-01,25.32,13.12
+60435,Toronto,ON,43.610761,-79.52194,2018-01-01,19.88,23.32
+60438,Toronto,ON,43.71110556,-79.543425,2018-01-01,14.88,27.72
+60440,Toronto,ON,43.78042,-79.46752,2018-01-01,17.76,22.56
+60450,Brampton,ON,43.669567,-79.76567,2018-01-01,28.96,10.08
+60512,Hamilton,ON,43.25778,-79.86167,2018-01-01,24.12,14.84
+60513,Hamilton,ON,43.22942,-79.86278,2018-01-01,29.92,8.96
+60515,Hamilton,ON,43.25744,-79.90775,2018-01-01,25.8,14.24
+60610,Sudbury,ON,46.49194,-81.00311,2018-01-01,13.16,27.24
+60709,Sault Ste Marie,ON,46.53319,-84.30992,2018-01-01,29.52,7.84
+60809,Thunder Bay,ON,48.37939,-89.29017,2018-01-01,33.96,2.72
+60904,London,ON,42.97446,-81.20086,2018-01-01,31.64,3.88
+61009,Sarnia,ON,42.990263,-82.395341,2018-01-01,29.92,5.76
+61104,Peterborough,ON,44.30183333,-78.34638611,2018-01-01,26.32,11.04
+61201,Cornwall,ON,45.0179806,-74.7353139,2018-01-01,25.08,11.4
+61302,St. Catharines,ON,43.16006,-79.23475,2018-01-01,32.2,5.8
+61402,Brantford,ON,43.13861,-80.29264,2018-01-01,28.92,6.48
+61502,Kitchener,ON,43.44383,-80.50381,2018-01-01,28.32,10
+61603,Oakville,ON,43.48692,-79.70228,2018-01-01,29.12,10.2
+61702,Oshawa,ON,43.94594,-78.89492,2018-01-01,NA,NA
+61703,Oshawa,ON,43.95222,-78.9125,2018-01-01,NA,NA
+61802,Guelph,ON,43.55163611,-80.26415556,2018-01-01,24.64,14.96
+62001,North Bay,ON,46.32323,-79.44928,2018-01-01,19.4,15.72
+62601,Simcoe,ON,42.85685,-80.26964,2018-01-01,34.24,3.24
+63001,Burlington,ON,43.314575,-79.80275556,2018-01-01,28.16,11.24
+63701,Grand Bend,ON,43.33318611,-81.74282222,2018-01-01,37.68,1
+65001,Barrie,ON,44.38231389,-79.70243056,2018-01-01,23.12,18.2
+65101,Newmarket,ON,44.04431,-79.48325,2018-01-01,25.52,13.64
+65201,Parry Sound,ON,45.33786,-80.03817,2018-01-01,28.84,6.44
+65301,Port Stanley,ON,42.67208,-81.16289,2018-01-01,36.08,2.4
+65401,Belleville,ON,44.15053,-77.3955,2018-01-01,25.16,9.64
+65801,Chatham,ON,42.40369,-82.20831,2018-01-01,28.68,9.72
